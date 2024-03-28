@@ -1,0 +1,21 @@
+.table{
+    border-collapse: collapse;
+}
+.table th,
+.table td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 8px;
+}
+
+.firstRow {
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+.evenRow {
+    background-color: grey; 
+}
+
+.oddRow {
+}
+

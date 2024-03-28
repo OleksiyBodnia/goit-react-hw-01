@@ -1,0 +1,73 @@
+.userImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+}
+.mainDiv{
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+    padding: 15px 0 0 0;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+.name{
+    font-size: 20px;
+    font-weight: 700;
+}
+.tag, .location{
+    color: grey;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+.list{
+    border-top: 1px solid rgb(46, 46, 46);
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+    margin: 0;
+    width: 190px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0;
+    background-color: grey;
+}
+.listItem{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+}
+.listItem::after{
+    position: absolute;
+    right: -15px;
+    content: " ";
+    width: 1px;
+    height: 56.8px;
+    z-index: 999;
+    background-color: black;
+}
+.listItemSpanF{
+    font-size: 12px;
+    color: rgb(42, 41, 41);
+    font-weight: 400;
+}
+.listItemSpans{
+    font-size: 12px;
+    color: rgb(42, 41, 41);
+    font-weight: 600;
+}
+.list :nth-child(3)::after{
+    display: none;
+}
+
